@@ -12,5 +12,17 @@ To  install all the requirements:
 
 To train MUSS:  
 
-cd './project/'
+cd './project/muss'
+pip install -e .
+
+
+To train T5:
+
+cd './project/TS_T5'
+pip install  -e .
+
+
+To Train BERT_GPT2:
+cd './project/BERT_GPT2'
+pip install -e . 
 
